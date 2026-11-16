@@ -1,0 +1,218 @@
+.users {
+    margin-top: 150px;
+
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.user-box {
+    width: 300px;
+    background-image: radial-gradient(#333333, #2a2a2a);
+    border: 1px solid #b9b9b920;
+    border-radius: 30px;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.user {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    width: 64px;
+    border: 1px solid #505050;
+    border-radius: 21px;
+}
+
+.user-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    font-weight: 400;
+}
+
+.user-name {
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+.user-role {
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 0.9rem;
+    
+    border: 2px solid transparent;
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    background-image: 
+        linear-gradient(#222222, #222222),
+        linear-gradient(180deg, #c2c2c2, #9e9e9e);
+    border-radius: 24px;
+    padding: 2px 10px;
+}
+
+.user-role:hover {
+    transform: translateX(-2px);
+}
+
+.role {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(#c2c2c2, #9e9e9e);
+}
+
+.divider {
+    width: 95%;
+    height: 1px;
+    background-color: #cccccc20;
+}
+
+.user-badges {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.user-badge {
+    width: 35px;
+    height: 35px;
+    background-color: #242424;
+    border: 1px solid #cccccc20;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: 100ms ease-in-out;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-badge:hover {
+    background-color: #262626;
+    transition: 100ms ease-in-out;
+    transform: translateY(-1px);
+}
+
+.user-badge img {
+    width: 25px;
+    pointer-events: none;
+}
+
+/* ROLE */
+
+/* OWNER */
+.owner {
+    background-image: linear-gradient(#c1ffbb, #65ff51, #c1ffbb);
+}
+
+.owner-box {
+    background-image: 
+        linear-gradient(#1A1A1A, #1A1A1A),
+        linear-gradient(120deg, #65ff51, #c1ffbb, #65ff51, #c1ffbb, #65ff51);
+    box-shadow: 0 0 8px 2px #65ff5150;
+}
+
+/* MANAGER */
+.manager {
+    background-image: linear-gradient(#ff5e99, #ff7ea1);
+}
+
+.manager-box {
+    background-image: 
+        linear-gradient(#1A1A1A, #1A1A1A),
+        linear-gradient(120deg, #ff76a8, #ff2167);
+    box-shadow: 0 0 8px 2px #ff76a850;
+}
+
+/* SPONSOR */
+.sponsor {
+    background-image: linear-gradient(#d587ff, #ff8bf1);
+}
+
+.sponsor-box {
+    background-image: 
+        linear-gradient(#1A1A1A, #1A1A1A),
+        linear-gradient(45deg, #ffb0f6, #e06afb, #ffb0f6);
+}
+
+/* VIP */
+.vip {
+    background-image: linear-gradient(#fff6d4, #ffd373, #fff6d4);
+}
+
+.vip-box {
+    background-image: 
+        linear-gradient(#1A1A1A, #1A1A1A),
+        linear-gradient(45deg, #fff6d4, #ffd373, #fff6d4);
+}
+
+/* FEMALE MEMBER */
+.female-member {
+    background-image: linear-gradient(#ff98d6, #ff60ff, #ff98d6);
+}
+
+.female-member-box {
+    background-image: 
+        linear-gradient(#1A1A1A, #1A1A1A),
+        linear-gradient(45deg, #ff98d6, #ff60ff, #ff98d6);
+}
+
+/* MEMBER */
+.member {
+    background-image: linear-gradient(#adefff, #15e0ff, #adefff);
+}
+
+.member-box {
+    background-image: 
+        linear-gradient(#1A1A1A, #1A1A1A),
+        linear-gradient(0deg, #50ffff, #15a1ff, #50ffff);
+}
+
+/* FEMALE GUEST */
+.female-guest {
+    background-image: linear-gradient(#ff9eff, #ffbaf5, #ff9eff);
+}
+
+.female-guest-box {
+    background-image: 
+        linear-gradient(#1A1A1A, #1A1A1A),
+        linear-gradient(0deg, #ff9eff, #ffbaf5, #ff9eff);
+}
+
+/* GUEST */
+.guest {
+    background-image: linear-gradient(#c97e23, #ff9a27);
+}
+
+.guest-box {
+    background-image: 
+        linear-gradient(#1A1A1A, #1A1A1A),
+        linear-gradient(0deg, #c97e23, #ff9a27);
+}
