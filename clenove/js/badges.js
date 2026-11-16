@@ -29,7 +29,7 @@ const BADGES = {
   staff: {
     modalId: "staff-badge",
     name: "Staff Badge",
-    desc: "Tento odznak má pouze personál",
+    desc: "Tento odznak má pouze vedení serveru",
     rarity: "Mythic",
     rarityClass: "mythic",
     smallIcon: "img/staff-badge-icon-small.webp",
